@@ -1,0 +1,5 @@
+checks for dataset_name:
+  - row_count > 0:
+      name: Dataset contains data
+  - missing_count(first_name) = 0:
+      name: No NULL values
