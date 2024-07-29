@@ -1,0 +1,15 @@
+data_source dbsource1:  
+    type: snowflake
+    account: sn90446.europe-west4.gcp
+    username: Neelabh02
+    password: Welcome@123
+    role: ACCOUNTADMIN
+    database: MY_DB
+    warehouse: COMPUTE_WH
+    schema: MY_SCHEMA
+    threads: 10
+    client_session_keep_alive: False
+soda_cloud:
+    host: cloud.soda.io
+    api_key_id: 4e80d0ad-b883-495f-b94d-6b67bb913063
+    api_key_secret: FbU2KDam1uYqiMuUvdlmKJ-W5xwVFW9qsgjYD3LvbsghrCO3Tz-10Q
